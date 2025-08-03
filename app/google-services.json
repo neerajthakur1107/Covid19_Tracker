@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:1091747010026:android:3235d18beac8a45ffb0e93",
         "android_client_info": {
-          "package_name": "com.codewithshubh.covid19tracker"
+          "package_name": "com.codeproject.covid19tracker"
         }
       },
       "oauth_client": [
