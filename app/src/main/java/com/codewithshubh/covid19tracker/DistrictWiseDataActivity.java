@@ -1,4 +1,4 @@
-package com.codewithshubh.covid19tracker;
+package com.codeproject.covid19tracker;
 
 
 import androidx.annotation.NonNull;
@@ -22,12 +22,12 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonArrayRequest;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
-import com.codewithshubh.covid19tracker.Adapters.DistrictWiseAdapter;
-import com.codewithshubh.covid19tracker.Adapters.StateWiseAdapter;
-import com.codewithshubh.covid19tracker.MainActivity;
-import com.codewithshubh.covid19tracker.Models.DistrictWiseModel;
-import com.codewithshubh.covid19tracker.Models.StateWiseModel;
-import com.codewithshubh.covid19tracker.R;
+import com.codeproject.covid19tracker.Adapters.DistrictWiseAdapter;
+import com.codeproject.covid19tracker.Adapters.StateWiseAdapter;
+import com.codeproject.covid19tracker.MainActivity;
+import com.codeproject.covid19tracker.Models.DistrictWiseModel;
+import com.codeproject.covid19tracker.Models.StateWiseModel;
+import com.codeproject.covid19tracker.R;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -35,7 +35,7 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 
-import static com.codewithshubh.covid19tracker.Constants.STATE_NAME;
+import static com.codeproject.covid19tracker.Constants.STATE_NAME;
 
 public class DistrictWiseDataActivity extends AppCompatActivity {
     private RecyclerView rv_district_wise;

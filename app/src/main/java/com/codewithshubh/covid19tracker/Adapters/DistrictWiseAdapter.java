@@ -1,4 +1,4 @@
-package com.codewithshubh.covid19tracker.Adapters;
+package com.codeproject.covid19tracker.Adapters;
 
 import android.content.Context;
 import android.content.Intent;
@@ -17,34 +17,34 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.codewithshubh.covid19tracker.EachDistrictDataActivity;
-import com.codewithshubh.covid19tracker.EachStateDataActivity;
-import com.codewithshubh.covid19tracker.Models.DistrictWiseModel;
-import com.codewithshubh.covid19tracker.Models.StateWiseModel;
-import com.codewithshubh.covid19tracker.R;
+import com.codeproject.covid19tracker.EachDistrictDataActivity;
+import com.codeproject.covid19tracker.EachStateDataActivity;
+import com.codeproject.covid19tracker.Models.DistrictWiseModel;
+import com.codeproject.covid19tracker.Models.StateWiseModel;
+import com.codeproject.covid19tracker.R;
 
 import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import static com.codewithshubh.covid19tracker.Constants.DISTRICT_ACTIVE;
-import static com.codewithshubh.covid19tracker.Constants.DISTRICT_CONFIRMED;
-import static com.codewithshubh.covid19tracker.Constants.DISTRICT_CONFIRMED_NEW;
-import static com.codewithshubh.covid19tracker.Constants.DISTRICT_DEATH;
-import static com.codewithshubh.covid19tracker.Constants.DISTRICT_DEATH_NEW;
-import static com.codewithshubh.covid19tracker.Constants.DISTRICT_NAME;
-import static com.codewithshubh.covid19tracker.Constants.DISTRICT_RECOVERED;
-import static com.codewithshubh.covid19tracker.Constants.DISTRICT_RECOVERED_NEW;
-import static com.codewithshubh.covid19tracker.Constants.STATE_ACTIVE;
-import static com.codewithshubh.covid19tracker.Constants.STATE_CONFIRMED;
-import static com.codewithshubh.covid19tracker.Constants.STATE_CONFIRMED_NEW;
-import static com.codewithshubh.covid19tracker.Constants.STATE_DEATH;
-import static com.codewithshubh.covid19tracker.Constants.STATE_DEATH_NEW;
-import static com.codewithshubh.covid19tracker.Constants.STATE_LAST_UPDATE;
-import static com.codewithshubh.covid19tracker.Constants.STATE_NAME;
-import static com.codewithshubh.covid19tracker.Constants.STATE_RECOVERED;
-import static com.codewithshubh.covid19tracker.Constants.STATE_RECOVERED_NEW;
+import static com.codeproject.covid19tracker.Constants.DISTRICT_ACTIVE;
+import static com.codeproject.covid19tracker.Constants.DISTRICT_CONFIRMED;
+import static com.codeproject.covid19tracker.Constants.DISTRICT_CONFIRMED_NEW;
+import static com.codeproject.covid19tracker.Constants.DISTRICT_DEATH;
+import static com.codeproject.covid19tracker.Constants.DISTRICT_DEATH_NEW;
+import static com.codeproject.covid19tracker.Constants.DISTRICT_NAME;
+import static com.codeproject.covid19tracker.Constants.DISTRICT_RECOVERED;
+import static com.codeproject.covid19tracker.Constants.DISTRICT_RECOVERED_NEW;
+import static com.codeproject.covid19tracker.Constants.STATE_ACTIVE;
+import static com.codeproject.covid19tracker.Constants.STATE_CONFIRMED;
+import static com.codeproject.covid19tracker.Constants.STATE_CONFIRMED_NEW;
+import static com.codeproject.covid19tracker.Constants.STATE_DEATH;
+import static com.codeproject.covid19tracker.Constants.STATE_DEATH_NEW;
+import static com.codeproject.covid19tracker.Constants.STATE_LAST_UPDATE;
+import static com.codeproject.covid19tracker.Constants.STATE_NAME;
+import static com.codeproject.covid19tracker.Constants.STATE_RECOVERED;
+import static com.codeproject.covid19tracker.Constants.STATE_RECOVERED_NEW;
 
 public class DistrictWiseAdapter extends RecyclerView.Adapter<DistrictWiseAdapter.MyViewHolder> {
 

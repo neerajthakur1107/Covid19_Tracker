@@ -1,4 +1,4 @@
-package com.codewithshubh.covid19tracker;
+package com.codeproject.covid19tracker;
 
 
 import androidx.annotation.NonNull;
@@ -13,8 +13,8 @@ import androidx.annotation.NonNull;
         import android.widget.EditText;
         import android.widget.Toast;
 
-        import com.codewithshubh.covid19tracker.R;
-       // import com.codewithshubh.covid19tracker.DashBoardActivity;
+        import com.codeproject.covid19tracker.R;
+       // import com.codeproject.covid19tracker.DashBoardActivity;
         import com.google.android.gms.tasks.OnCompleteListener;
         import com.google.android.gms.tasks.Task;
         import com.google.firebase.FirebaseException;

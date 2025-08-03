@@ -1,4 +1,4 @@
-package com.codewithshubh.covid19tracker;
+package com.codeproject.covid19tracker;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,9 +8,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
-import com.codewithshubh.covid19tracker.R;
-//import com.codewithshubh.covid19tracker.EmailLoginActivity;
-import com.codewithshubh.covid19tracker.PhoneLoginActivity;
+import com.codeproject.covid19tracker.R;
+//import com.codeproject.covid19tracker.EmailLoginActivity;
+import com.codeproject.covid19tracker.PhoneLoginActivity;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class DashBoardActivity extends AppCompatActivity {

@@ -1,4 +1,4 @@
-package com.codewithshubh.covid19tracker;
+package com.codeproject.covid19tracker;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -19,8 +19,8 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonArrayRequest;
 import com.android.volley.toolbox.Volley;
-import com.codewithshubh.covid19tracker.Adapters.CountryWiseAdapter;
-import com.codewithshubh.covid19tracker.Models.CountryWiseModel;
+import com.codeproject.covid19tracker.Adapters.CountryWiseAdapter;
+import com.codeproject.covid19tracker.Models.CountryWiseModel;
 
 import org.json.JSONArray;
 import org.json.JSONException;

@@ -1,4 +1,4 @@
-package com.codewithshubh.covid19tracker.Models;
+package com.codeproject.covid19tracker.Models;
 
 public class StateWiseModel {
     private String state;

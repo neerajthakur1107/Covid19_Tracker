@@ -1,4 +1,4 @@
-package com.codewithshubh.covid19tracker;
+package com.codeproject.covid19tracker;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -18,15 +18,15 @@ import org.eazegraph.lib.models.PieModel;
 
 import java.text.NumberFormat;
 
-import static com.codewithshubh.covid19tracker.Constants.STATE_ACTIVE;
-import static com.codewithshubh.covid19tracker.Constants.STATE_CONFIRMED;
-import static com.codewithshubh.covid19tracker.Constants.STATE_CONFIRMED_NEW;
-import static com.codewithshubh.covid19tracker.Constants.STATE_DEATH;
-import static com.codewithshubh.covid19tracker.Constants.STATE_DEATH_NEW;
-import static com.codewithshubh.covid19tracker.Constants.STATE_LAST_UPDATE;
-import static com.codewithshubh.covid19tracker.Constants.STATE_NAME;
-import static com.codewithshubh.covid19tracker.Constants.STATE_RECOVERED;
-import static com.codewithshubh.covid19tracker.Constants.STATE_RECOVERED_NEW;
+import static com.codeproject.covid19tracker.Constants.STATE_ACTIVE;
+import static com.codeproject.covid19tracker.Constants.STATE_CONFIRMED;
+import static com.codeproject.covid19tracker.Constants.STATE_CONFIRMED_NEW;
+import static com.codeproject.covid19tracker.Constants.STATE_DEATH;
+import static com.codeproject.covid19tracker.Constants.STATE_DEATH_NEW;
+import static com.codeproject.covid19tracker.Constants.STATE_LAST_UPDATE;
+import static com.codeproject.covid19tracker.Constants.STATE_NAME;
+import static com.codeproject.covid19tracker.Constants.STATE_RECOVERED;
+import static com.codeproject.covid19tracker.Constants.STATE_RECOVERED_NEW;
 
 public class EachStateDataActivity extends AppCompatActivity {
     private TextView tv_confirmed, tv_confirmed_new, tv_active, tv_active_new, tv_death, tv_death_new,

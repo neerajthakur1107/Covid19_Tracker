@@ -1,4 +1,4 @@
-package com.codewithshubh.covid19tracker;
+package com.codeproject.covid19tracker;
 
 import androidx.annotation.ColorInt;
 import androidx.annotation.NonNull;

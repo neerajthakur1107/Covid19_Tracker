@@ -1,4 +1,4 @@
-package com.codewithshubh.covid19tracker;
+package com.codeproject.covid19tracker;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -15,14 +15,14 @@ import org.eazegraph.lib.models.PieModel;
 
 import java.text.NumberFormat;
 
-import static com.codewithshubh.covid19tracker.Constants.COUNTRY_ACTIVE;
-import static com.codewithshubh.covid19tracker.Constants.COUNTRY_CONFIRMED;
-import static com.codewithshubh.covid19tracker.Constants.COUNTRY_DECEASED;
-import static com.codewithshubh.covid19tracker.Constants.COUNTRY_NAME;
-import static com.codewithshubh.covid19tracker.Constants.COUNTRY_NEW_CONFIRMED;
-import static com.codewithshubh.covid19tracker.Constants.COUNTRY_NEW_DECEASED;
-import static com.codewithshubh.covid19tracker.Constants.COUNTRY_RECOVERED;
-import static com.codewithshubh.covid19tracker.Constants.COUNTRY_TESTS;
+import static com.codeproject.covid19tracker.Constants.COUNTRY_ACTIVE;
+import static com.codeproject.covid19tracker.Constants.COUNTRY_CONFIRMED;
+import static com.codeproject.covid19tracker.Constants.COUNTRY_DECEASED;
+import static com.codeproject.covid19tracker.Constants.COUNTRY_NAME;
+import static com.codeproject.covid19tracker.Constants.COUNTRY_NEW_CONFIRMED;
+import static com.codeproject.covid19tracker.Constants.COUNTRY_NEW_DECEASED;
+import static com.codeproject.covid19tracker.Constants.COUNTRY_RECOVERED;
+import static com.codeproject.covid19tracker.Constants.COUNTRY_TESTS;
 
 public class EachCountryDataActivity extends AppCompatActivity {
 

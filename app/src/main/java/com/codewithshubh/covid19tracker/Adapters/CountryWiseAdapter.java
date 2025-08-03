@@ -1,4 +1,4 @@
-package com.codewithshubh.covid19tracker.Adapters;
+package com.codeproject.covid19tracker.Adapters;
 
 import android.content.Context;
 import android.content.Intent;
@@ -19,24 +19,24 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
-import com.codewithshubh.covid19tracker.EachCountryDataActivity;
-import com.codewithshubh.covid19tracker.Models.CountryWiseModel;
-import com.codewithshubh.covid19tracker.R;
+import com.codeproject.covid19tracker.EachCountryDataActivity;
+import com.codeproject.covid19tracker.Models.CountryWiseModel;
+import com.codeproject.covid19tracker.R;
 
 import java.text.NumberFormat;
 import java.util.ArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import static com.codewithshubh.covid19tracker.Constants.COUNTRY_ACTIVE;
-import static com.codewithshubh.covid19tracker.Constants.COUNTRY_CONFIRMED;
-import static com.codewithshubh.covid19tracker.Constants.COUNTRY_DECEASED;
-import static com.codewithshubh.covid19tracker.Constants.COUNTRY_FLAGURL;
-import static com.codewithshubh.covid19tracker.Constants.COUNTRY_NAME;
-import static com.codewithshubh.covid19tracker.Constants.COUNTRY_NEW_CONFIRMED;
-import static com.codewithshubh.covid19tracker.Constants.COUNTRY_NEW_DECEASED;
-import static com.codewithshubh.covid19tracker.Constants.COUNTRY_RECOVERED;
-import static com.codewithshubh.covid19tracker.Constants.COUNTRY_TESTS;
+import static com.codeproject.covid19tracker.Constants.COUNTRY_ACTIVE;
+import static com.codeproject.covid19tracker.Constants.COUNTRY_CONFIRMED;
+import static com.codeproject.covid19tracker.Constants.COUNTRY_DECEASED;
+import static com.codeproject.covid19tracker.Constants.COUNTRY_FLAGURL;
+import static com.codeproject.covid19tracker.Constants.COUNTRY_NAME;
+import static com.codeproject.covid19tracker.Constants.COUNTRY_NEW_CONFIRMED;
+import static com.codeproject.covid19tracker.Constants.COUNTRY_NEW_DECEASED;
+import static com.codeproject.covid19tracker.Constants.COUNTRY_RECOVERED;
+import static com.codeproject.covid19tracker.Constants.COUNTRY_TESTS;
 
 public class CountryWiseAdapter extends RecyclerView.Adapter<CountryWiseAdapter.MyViewHolder> {
     private Context mContext;
