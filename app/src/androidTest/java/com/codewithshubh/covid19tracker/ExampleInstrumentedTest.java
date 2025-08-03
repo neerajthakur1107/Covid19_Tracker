@@ -1,4 +1,4 @@
-package com.codewithshubh.covid19tracker;
+package com.codeproject.covid19tracker;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.codewithshubh.covid19tracker", appContext.getPackageName());
+        assertEquals("com.codeproject.covid19tracker", appContext.getPackageName());
     }
 }
